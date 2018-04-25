@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6961" started-at="2018-04-25T04:50:01Z" finished-at="2018-04-25T04:50:08Z">
+  <suite name="Default suite" duration-ms="9315" started-at="2018-04-25T05:18:59Z" finished-at="2018-04-25T05:19:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6961" started-at="2018-04-25T04:50:01Z" finished-at="2018-04-25T04:50:08Z">
+    <test name="Default test" duration-ms="9315" started-at="2018-04-25T05:18:59Z" finished-at="2018-04-25T05:19:08Z">
       <class name="test01.prod01">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:test01.prod01@5f375618]" name="setUp" is-config="true" duration-ms="3615" started-at="2018-04-25T00:50:01Z" finished-at="2018-04-25T00:50:04Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:test01.prod01@5f375618]" name="setUp" is-config="true" duration-ms="4055" started-at="2018-04-25T01:18:59Z" finished-at="2018-04-25T01:19:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testGooglePageTitleInIEBrowser()[pri:0, instance:test01.prod01@5f375618]" name="testGooglePageTitleInIEBrowser" duration-ms="2713" started-at="2018-04-25T00:50:04Z" finished-at="2018-04-25T00:50:07Z">
+        <test-method status="PASS" signature="testGooglePageTitleInIEBrowser()[pri:0, instance:test01.prod01@5f375618]" name="testGooglePageTitleInIEBrowser" duration-ms="4647" started-at="2018-04-25T01:19:03Z" finished-at="2018-04-25T01:19:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGooglePageTitleInIEBrowser -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:test01.prod01@5f375618]" name="tearDown" is-config="true" duration-ms="610" started-at="2018-04-25T00:50:07Z" finished-at="2018-04-25T00:50:08Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test01.prod01@5f375618]" name="tearDown" is-config="true" duration-ms="600" started-at="2018-04-25T01:19:08Z" finished-at="2018-04-25T01:19:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

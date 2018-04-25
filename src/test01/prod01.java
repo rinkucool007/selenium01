@@ -3,6 +3,7 @@ package test01;
 import java.io.File;
 
 import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -35,6 +36,8 @@ public class prod01 {
 		Assert.assertTrue(strPageTitle.equalsIgnoreCase("Google"), "Page title doesn't match");
 		//prod01.takeSnapShot(driver, "C:\\test\\screenshots\\screenshot.png");
 		prod01.takeSnapShot(driver, System.getProperty("user.dir")+"\\screenshot\\screenshot.png");
+		driver.findElement(By.name("q")).sendKeys("Hello");
+		Thread.sleep(2000);
 	}
 	
     public static void takeSnapShot(WebDriver webdriver,String fileWithPath) throws Exception{
